@@ -44,5 +44,44 @@
 }
 
 #is {
-  background-color: #d5d5d5;
-}/*# sourceMappingURL=styles.css.map */
+  background-color: #d5d5d5;}
+
+
+#cards {
+  transition: transform 0.2s;
+}
+
+#cards:hover {
+  transform: scale(1.08);
+}
+
+#cardshadow {
+  transition: box-shadow 0.2s;
+}
+
+#cardshadow:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#catalogo:hover {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+#fondo-catalogo{
+  background-color: white;
+}
